@@ -3,17 +3,20 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro anos, idadeMeses, idadeDias
+		inteiro anos, meses, dias, idadeDias
 
-		escreva("\nInsira a sua idade: ")
+		escreva("\nInsira os anos: ")
 		leia(anos)
-		
-		idadeMeses = anos * 12
-		escreva("\n A idade em meses é: ", idadeMeses)
 
-		idadeDias = anos * 365
-		escreva("\n A idade em dias é: ", idadeDias)
+		escreva("\nInsira os meses: ")
+		leia(meses)
+
+		escreva("\nInsira os dias: ")
+		leia(dias)
 		
+		idadeDias = (anos * 365) + (meses * 30) + (dias)
+		escreva(idadeDias)
+				
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -21,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 47; 
+ * @POSICAO-CURSOR = 294; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

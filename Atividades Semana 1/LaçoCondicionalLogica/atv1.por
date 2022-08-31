@@ -1,5 +1,5 @@
 programa
-{	
+{	
 	funcao inicio()
 	{
 		real P, E, M
@@ -13,7 +13,8 @@ programa
 			escreva("\n O peso total do tomate foi de: ", P, "kgs")
 			escreva("\n O peso excedente foi de: ", E, "kgs")
 			escreva("\n A multa que será paga será de R$: ", M)
-		}senao{ E = 0 M = 0
+		}senao{ 
+			E = 0 M = 0
 			escreva("\nO excesso é de: ", E, " e a multa é de R$: ", M)}
 		
 	}
@@ -23,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 54; 
+ * @POSICAO-CURSOR = 325; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

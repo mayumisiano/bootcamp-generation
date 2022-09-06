@@ -2,8 +2,8 @@
 
 ## Tópicos abordados:
 
-### - Introdução à Ciência da Computação;
-### - Lógica de Programação;
-### - Laços Condicionais;
-### - Laços de Repetição;
-### - Vetores e Matrizes.
+#### ● Introdução à Ciência da Computação;
+#### ● Lógica de Programação;
+#### ● Laços Condicionais;
+#### ● Laços de Repetição;
+#### ● Vetores e Matrizes.

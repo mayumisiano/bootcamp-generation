@@ -1,0 +1,17 @@
+package poo;
+
+public class AutomovelMain {
+
+	public static void main(String[] args) {
+		
+		//Instanciar a minha classe Automovel		
+		Automovel Auto1 = new Automovel("Roberta Ribeiro", "Mini Cooper", "DEV2022",2022);		
+		
+		Auto1.imprimirInfo();
+		System.out.println("***************Transferência de Proprietária****************");
+		
+		Auto1.setNomeProprietario("Cecília Nakamura");
+		Auto1.imprimirInfo();	
+	}
+
+}

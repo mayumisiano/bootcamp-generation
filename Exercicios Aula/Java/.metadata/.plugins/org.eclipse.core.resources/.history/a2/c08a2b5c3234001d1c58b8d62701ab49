@@ -1,0 +1,12 @@
+package poo;
+
+public class PessoaTeste {
+
+	public static void main(String[] args) {
+		Pessoa paula = new Pessoa("Paula","Mayumi","Siano");
+		
+		System.out.println(paula);
+
+	}
+
+}

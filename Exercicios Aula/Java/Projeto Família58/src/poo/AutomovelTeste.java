@@ -1,0 +1,24 @@
+package poo;
+
+public class AutomovelTeste {
+	
+	//Criamos a classe MAIN onde iremos testar
+	public static void main(String[] args) {
+		
+		//Instanciar a minha classe Automovel		
+		Automovel Auto1 = new Automovel("Roberta Ribeiro", "Mini Cooper", "DEV2022",2022);
+		Automovel Auto2 = new Automovel ("Camilla Villares", "Porsche", "DEV2022", 2022);
+		
+		Auto1.imprimirInfo();
+		System.out.println("\n*************** - Transferência de Proprietária - ****************");
+		
+		//Alterando o nomeProprietário para um novo valor, no caso, Cecília
+		Auto1.setNomeProprietario("\nCecília Nakamura");
+		Auto1.imprimirInfo();	
+		
+		//Mudando o nome da placa da Camilla com SET
+		Auto2.setPlaca("CAM2E2022");
+		Auto1.imprimirInfo();
+	}
+
+}

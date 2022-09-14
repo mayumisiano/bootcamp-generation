@@ -1,0 +1,13 @@
+package poo;
+
+public class AutomovelMain {
+
+	public static void main(String[] args) {
+		
+		//Instanciar a minha classe Automovel		
+		Automovel Auto1 = new Automovel("Roberta Ribeiro", "Mini Cooper", "DEV2022",2022);
+		
+
+	}
+
+}

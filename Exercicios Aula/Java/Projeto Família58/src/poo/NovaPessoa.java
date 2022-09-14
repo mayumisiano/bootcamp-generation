@@ -1,0 +1,73 @@
+package poo;
+// Exemplo utilizando Herança
+// NovaPessoa é o nome da SUPERCLASSE
+
+public class NovaPessoa {
+	
+	private String nome;
+	private String endereco;
+	private String cpf;
+	private int telefone;
+	private int idade;
+	
+	public NovaPessoa(String nome, String endereco, String cpf, int telefone, int idade) {
+		
+		this.nome = nome;
+		this.endereco = endereco;
+		this.cpf = cpf;
+		this.telefone = telefone;
+		this.idade = idade;
+	}
+	
+	public void validarCpf() {
+		
+		//pegar o valor de retorno do getCpf e verificar se o comprimento dessa cadeia é diferente de 11
+		if(getCpf().length() != 11) {
+			System.out.println("\n---CPF Inválido!");
+		}else {
+			System.out.println("\n--CPF Válido");
+		}
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public int getTelefone() {
+		return telefone;
+	}
+
+	public void setTelefone(int telefone) {
+		this.telefone = telefone;
+	}
+
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+		
+	
+}

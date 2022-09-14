@@ -1,0 +1,60 @@
+package poo;
+//Definição da classe automóvel
+public class Automovel {
+	
+	// Declaração dos Atributos da Classe	
+	private String nomeProprietario;
+	private String modelo;
+	private String placa;
+	private int ano;
+	
+	/*Construtor é um método especial que é definido para cada classe.
+	/* Inicialização dos objetos*/
+	
+	public Automovel(String nomeProprietario, String modelo, String placa, int ano) {
+		super();
+		
+		//Após o ponto temos o atributo, e depois do igual, um parâmetro (argumento)
+		this.nomeProprietario = nomeProprietario;
+		this.modelo = modelo;
+		this.placa = placa;
+		this.ano = ano;
+	}
+	
+	//Declaração dos demais métodos da Classe.
+	public String getNomeProprietario() {
+		return nomeProprietario;
+	}
+
+	public void setNomeProprietario(String nomeProprietario) {
+		this.nomeProprietario = nomeProprietario;
+	}
+
+	public String getModelo() {
+		return modelo;
+	}
+
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+
+	public String getPlaca() {
+		return placa;
+	}
+
+	public void setPlaca(String placa) {
+		this.placa = placa;
+	}
+
+	public int getAno() {
+		return ano;
+	}
+
+	public void setAno(int ano) {
+		this.ano = ano;
+	}	
+	
+	public void imprimirInfo() {
+		System.out.println(nomeProprietario+" possui um veículo de modelo: "+modelo+" com placa"+placa+" ano "+ano);
+	}
+}

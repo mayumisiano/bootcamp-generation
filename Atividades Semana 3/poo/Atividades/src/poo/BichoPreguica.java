@@ -28,10 +28,10 @@ public class BichoPreguica extends Animal {
 	}
 	
 	public void subirArvore() {
-		
+		System.out.println("Preguiça subindo em árvore..");
 	}
 	
-	public void balir() {
+	public void emitirSom() {
 		System.out.println("Beeeeeeeee!!");
 	}
 	

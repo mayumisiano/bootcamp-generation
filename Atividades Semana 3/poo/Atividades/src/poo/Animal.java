@@ -2,7 +2,7 @@ package poo;
 
 public class Animal {
 
-	private String nome;
+	protected String nome;
 	private int idade;
 	
 	public Animal(String nome, int idade) {
@@ -26,5 +26,21 @@ public class Animal {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}	
+	
+	public void emitirSom(){
+		
+	}
+	
+	public void correr() {
+		
+	}
+	
+	public void subirArvore() {
+		
+	}
+	
+	public void imprimirInfo() {
+		
+	}
 	
 }

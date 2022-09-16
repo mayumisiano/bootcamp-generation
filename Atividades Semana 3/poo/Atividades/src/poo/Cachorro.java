@@ -1,19 +1,22 @@
 package poo;
 
 public class Cachorro extends Animal {
-	
+		
 	private String raca;
 	private String porte;
 	private int tamanhoPelo;
 	
 	public Cachorro(String nome, int idade, String raca, String porte, int tamanhoPelo) {
 		
-		super(nome,idade);
+		super(nome,idade);		
 		this.raca = raca;
 		this.porte = porte;
 		this.tamanhoPelo = tamanhoPelo;
+	}	
+	
+	public void Telefone(String nome) {		
+		this.nome=nome;
 	}
-
 	public String getRaca() {
 		return raca;
 	}
@@ -39,12 +42,11 @@ public class Cachorro extends Animal {
 	}
 	
 	public void correr() {
-		
+		System.out.println("Cachorro correndo...");
 	}
 	
-	public void latir() {
+	public void emitirSom(){
 		System.out.println("Au au au au!");
-	}
-	
+	}	
 	
 }

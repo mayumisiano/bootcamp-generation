@@ -14,9 +14,6 @@ public class Cachorro extends Animal {
 		this.tamanhoPelo = tamanhoPelo;
 	}	
 	
-	public void Telefone(String nome) {		
-		this.nome=nome;
-	}
 	public String getRaca() {
 		return raca;
 	}

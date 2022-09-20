@@ -2,13 +2,13 @@ package poo;
 
 public class Animal {
 
-	protected String nome;
-	private int idade;
+	private String nome;
+	private int idade;	
 	
 	public Animal(String nome, int idade) {
 		
-		this.setNome(nome);
-		this.setIdade(idade);
+		this.setNome(nome); //this.nome=nome;
+		this.setIdade(idade); //this.setIdade=idade;
 	}
 
 	public String getNome() {
